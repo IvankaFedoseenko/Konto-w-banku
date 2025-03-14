@@ -19,7 +19,21 @@
         {
             if(kwota <= 0)
                 throw new ArgumentException("Kwota musi być dodatnia");
+            if(zablokowane)
+                throw new ArgumentException("Konto jest zabłokowane");
+            else
             bilans += kwota;
+        }
+        public void Wypłata(decimal kwota)
+        {
+            if(kwota <= 0) 
+            throw new ArgumentException("Kwota musi być dodatnia");
+            if (zablokowane)
+                throw new ArgumentException("Konto jest zabłokowane");
+            if (kwota > bilans)
+                throw new ArgumentException("Nie ma wystarczająco pieniędzy na koncie");
+            else
+                bilans -= kwota;
         }
         public void BlokujKonto()
         {
