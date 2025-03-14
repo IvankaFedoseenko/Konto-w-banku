@@ -1,9 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{7DA9CF37-274C-4620-AD5D-C613C0CBE256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestyKonto", "TestyKonto\TestyKonto.csproj", "{F7BABA8A-A430-45DA-B828-F0DF32D4518D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA9CF37-274C-4620-AD5D-C613C0CBE256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA9CF37-274C-4620-AD5D-C613C0CBE256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA9CF37-274C-4620-AD5D-C613C0CBE256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA9CF37-274C-4620-AD5D-C613C0CBE256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BABA8A-A430-45DA-B828-F0DF32D4518D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BABA8A-A430-45DA-B828-F0DF32D4518D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BABA8A-A430-45DA-B828-F0DF32D4518D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BABA8A-A430-45DA-B828-F0DF32D4518D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
